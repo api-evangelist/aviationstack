@@ -17,12 +17,12 @@ tags:
   - Airlines
   - Airports
   - Flights
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-24'
 modified: '2025-02-24'
-position: Consumer
+position: Consuming
 description: >-
   Aviationstack is a comprehensive aviation data platform that provides
   real-time, accurate, and reliable information about flights, airlines,
