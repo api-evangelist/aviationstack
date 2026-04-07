@@ -4,8 +4,7 @@ url: >-
 apis:
   - aid: aviationstack:aviationstack
     name: Aviationstack
-    tags:
-      - API
+    tags: []
     humanURL: https://aviationstack.com/
     properties:
       - url: https://aviationstack.com/
@@ -14,9 +13,9 @@ apis:
       Free, Real-time Flight Status.
 name: Aviationstack
 tags:
-  - Aviation
   - Airlines
   - Airports
+  - Aviation
   - Flights
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
