@@ -10,7 +10,8 @@ apis:
     properties:
       - url: https://aviationstack.com/
         type: Documentation
-    description: 'Free, Real-time Flight Status '
+    description: >-
+      Free, Real-time Flight Status.
 name: Aviationstack
 tags:
   - Aviation
@@ -24,15 +25,12 @@ created: '2025-02-24'
 modified: '2026-03-16'
 position: Consuming
 description: >-
-  Aviationstack is a comprehensive aviation data platform that provides
-  real-time, accurate, and reliable information about flights, airlines,
-  airports, and aircraft. This powerful tool offers a wide range of data
-  including flight schedules, arrival and departure times, route information,
-  aircraft details, and more. Aviationstack's API integration allows users to
-  access up-to-date data for tracking flights, analyzing trends, and improving
-  operational efficiency in the aviation industry. With its robust features and
-  user-friendly interface, Aviationstack is a valuable resource for airlines,
-  airports, travel agencies, and aviation enthusiasts alike.
+  Aviationstack is a comprehensive aviation data platform that provides real-time,
+  accurate, and reliable information about flights, airlines, airports, and aircraft.
+  This powerful tool offers a wide range of data including flight schedules, arrival
+  and departure times, route information, aircraft details, and more. Aviationstack's
+  API integration allows users to access up-to-date data for tracking flights, analyzing
+  trends, and improving operational efficiency in the aviation industry.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
