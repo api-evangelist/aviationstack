@@ -1,42 +1,41 @@
 # Aviationstack (aviationstack)
-Aviationstack is a comprehensive aviation data platform that provides real-time, accurate, and reliable information about flights, airlines, airports, and aircraft. This powerful tool offers a wide range of data including flight schedules, arrival and departure times, route information, aircraft details, and more. Aviationstack's API integration allows users to access up-to-date data for tracking flights, analyzing trends, and improving operational efficiency in the aviation industry. With its robust features and user-friendly interface, Aviationstack is a valuable resource for airlines, airports, travel agencies, and aviation enthusiasts alike.
+Aviationstack is a comprehensive aviation data platform that provides real-time, accurate, and reliable information about flights, airlines, airports, and aircraft. This powerful tool offers a wide range of data including flight schedules, arrival and departure times, route information, aircraft details, and more.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/apis.yml)
+**URL:** [https://aviationstack.com/](https://aviationstack.com/)
 
-## Scope
+## Tags
 
-- **Type:** Index 
-- **Position:** Consumer 
-- **Access:** 3rd-Party 
-
-## Tags:
-
- - Aviation, Airlines, Airports, Flights
+ - Airlines, Airports, Aviation, Flights, Real-Time
 
 ## Timestamps
 
-- **Created:** 2025-02-24 
-- **Modified:** 2025-02-24 
+- **Created:** 2025-02-24
+- **Modified:** 2026-04-19
 
 ## APIs
 
 ### Aviationstack
-Free, Real-time Flight Status 
+Aviationstack REST API provides real-time and historical flight status data, airline and airport information, and global aviation intelligence through a simple JSON API.
 
 **Human URL:** [https://aviationstack.com/](https://aviationstack.com/)
 
+#### Tags
 
-#### Tags:
-
- - API
+ - Airlines, Airports, Aviation, Flights, Real-Time
 
 #### Properties
 
-- [Documentation](https://aviationstack.com/)
+- [Documentation](https://aviationstack.com/documentation)
+
+## Common Properties
+
+- [Website](https://aviationstack.com/)
+- [Portal](https://aviationstack.com/documentation)
+- [GitHubOrganization](https://github.com/apilayer)
+- [LinkedIn](https://www.linkedin.com/company/aviationstack/)
 
 ## Maintainers
 
 **FN:** Kin Lane
 
-**Email:** info@apievangelist.com
-
+**Email:** kin@apievangelist.com
