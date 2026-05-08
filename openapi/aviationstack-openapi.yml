@@ -1,0 +1,136 @@
+openapi: 3.1.0
+info:
+  title: AviationStack API
+  version: 1.0.0
+  description: >-
+    Real-time and historical flight tracking, airline routes, airports, airlines,
+    aircraft, taxes, cities, countries, and timetable data via REST endpoints.
+servers:
+  - url: https://aviationstack.com/
+x-generated-from: https://aviationstack.com/
+x-generated-by: claude-crawl-2026-05-08
+paths:
+  /v1/flights:
+    get:
+      summary: Real-time and historical flights
+      responses:
+        '200':
+          description: Flights collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+  /v1/routes:
+    get:
+      summary: Airline route data
+      responses:
+        '200':
+          description: Routes collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+  /v1/airports:
+    get:
+      summary: Global airport information
+      responses:
+        '200':
+          description: Airports collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+  /v1/airlines:
+    get:
+      summary: Airline data
+      responses:
+        '200':
+          description: Airlines collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+  /v1/airplanes:
+    get:
+      summary: Aircraft information
+      responses:
+        '200':
+          description: Airplanes collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+  /v1/aircraft_types:
+    get:
+      summary: Aircraft type classifications
+      responses:
+        '200':
+          description: Aircraft types collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+  /v1/taxes:
+    get:
+      summary: Aviation tax information
+      responses:
+        '200':
+          description: Taxes collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+  /v1/cities:
+    get:
+      summary: City destination data
+      responses:
+        '200':
+          description: Cities collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+  /v1/countries:
+    get:
+      summary: Country information
+      responses:
+        '200':
+          description: Countries collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+  /v1/timetable:
+    get:
+      summary: Real-time flight schedule for current day
+      responses:
+        '200':
+          description: Timetable collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+  /v1/flightsFuture:
+    get:
+      summary: Future flight schedule data
+      responses:
+        '200':
+          description: Future flights collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+components:
+  schemas:
+    Collection:
+      type: object
+      properties:
+        pagination:
+          type: object
+          additionalProperties: true
+        data:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+      additionalProperties: true
