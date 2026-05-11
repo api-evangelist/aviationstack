@@ -35,6 +35,9 @@ position: Consuming
 description: >-
   Aviationstack is a comprehensive aviation data platform that provides real-time, accurate, and reliable information about flights, airlines, airports, and aircraft. This powerful tool offers a wide range
   of data including flight schedules, arrival and departure times, route information, aircraft details, and more.
+integrations:
+  - name: Aviationstack
+  - name: API Pop-Up Banner
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -46,3 +49,5 @@ common:
   url: https://github.com/apilayer
 - type: LinkedIn
   url: https://www.linkedin.com/company/aviationstack/
+- type: Integrations
+  url: https://aviationstack.com/integrations
