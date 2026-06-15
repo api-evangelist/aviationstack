@@ -1,0 +1,780 @@
+{
+  "item": [
+    {
+      "id": "cb996baa-d417-4b12-b3ae-66bf70fde40e",
+      "name": "Real-time and historical flights",
+      "request": {
+        "name": "Real-time and historical flights",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "flights"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "482f6dc4-0417-45b3-975d-911a5426bb5b",
+          "name": "Flights collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "flights"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "83f4141d-6b83-4df0-b1ab-0b9117dc2a6c",
+      "name": "Airline route data",
+      "request": {
+        "name": "Airline route data",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "routes"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "178e4d9f-b1d7-466d-84a9-6a893525b6bb",
+          "name": "Routes collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "routes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "ca01c15e-1f16-45fc-96d7-588fbf51b2df",
+      "name": "Global airport information",
+      "request": {
+        "name": "Global airport information",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "airports"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "d957a660-613f-46af-8e75-8ee6f2049348",
+          "name": "Airports collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "airports"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "6c29fc7b-0a3d-4606-884a-4fed971441ee",
+      "name": "Airline data",
+      "request": {
+        "name": "Airline data",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "airlines"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "6610280f-c628-4392-b87d-08d5df86a44f",
+          "name": "Airlines collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "airlines"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "281b593b-7dfa-469d-8bc6-c6e7fb9b2917",
+      "name": "Aircraft information",
+      "request": {
+        "name": "Aircraft information",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "airplanes"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "62b48063-481f-4c1f-be95-db842f79dc52",
+          "name": "Airplanes collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "airplanes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "aaed120a-18d9-44b7-a287-6eb5c9147110",
+      "name": "Aircraft type classifications",
+      "request": {
+        "name": "Aircraft type classifications",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "aircraft_types"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "8ce4a107-85c8-4624-8640-b3f5993bb9c7",
+          "name": "Aircraft types collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "aircraft_types"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "4da22f92-2309-4801-bb2b-ade43aac9c09",
+      "name": "Aviation tax information",
+      "request": {
+        "name": "Aviation tax information",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "taxes"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "718a7f26-d932-4cfd-aea2-49c04ba41acd",
+          "name": "Taxes collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "taxes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "11834ff2-9180-4fad-ab1f-6ef8b37f8c3e",
+      "name": "City destination data",
+      "request": {
+        "name": "City destination data",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "cities"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "3a557783-fcf5-410d-b2e0-f639f6bee7ff",
+          "name": "Cities collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "cities"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "4aaf7256-2cda-49aa-9e32-bd4b167f881a",
+      "name": "Country information",
+      "request": {
+        "name": "Country information",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "countries"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "9363b9e2-773e-4caa-a7e4-2fe2783cf1ee",
+          "name": "Countries collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "countries"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "5280ff2a-6055-4751-bcca-2978bb10452d",
+      "name": "Real-time flight schedule for current day",
+      "request": {
+        "name": "Real-time flight schedule for current day",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "timetable"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "b349d9b7-2707-4b65-b6e7-218e8f26643a",
+          "name": "Timetable collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "timetable"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "546b629d-a5b1-496c-9b72-d1b9e27fc067",
+      "name": "Future flight schedule data",
+      "request": {
+        "name": "Future flight schedule data",
+        "description": {},
+        "url": {
+          "path": [
+            "v1",
+            "flightsFuture"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "1e66b7d2-152c-44cd-9282-0a2382f88b22",
+          "name": "Future flights collection",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "v1",
+                "flightsFuture"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"pagination\": {\n    \"key_0\": 1734.9926669186666,\n    \"key_1\": 2162,\n    \"key_2\": 211.70358916147046,\n    \"key_3\": 8100\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 8736.581978654018,\n  \"key_1\": false\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://aviationstack.com/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "4d98d193-c509-4953-988b-a4caba08cadc",
+    "name": "AviationStack API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Real-time and historical flight tracking, airline routes, airports, airlines, aircraft, taxes, cities, countries, and timetable data via REST endpoints.",
+      "type": "text/plain"
+    }
+  }
+}

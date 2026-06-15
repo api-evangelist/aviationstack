@@ -1,0 +1,131 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "AviationStack API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Real-time and historical flights",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/flights"
+      },
+      "docs": "Real-time and historical flights"
+    },
+    {
+      "info": {
+        "name": "Airline route data",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/routes"
+      },
+      "docs": "Airline route data"
+    },
+    {
+      "info": {
+        "name": "Global airport information",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/airports"
+      },
+      "docs": "Global airport information"
+    },
+    {
+      "info": {
+        "name": "Airline data",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/airlines"
+      },
+      "docs": "Airline data"
+    },
+    {
+      "info": {
+        "name": "Aircraft information",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/airplanes"
+      },
+      "docs": "Aircraft information"
+    },
+    {
+      "info": {
+        "name": "Aircraft type classifications",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/aircraft_types"
+      },
+      "docs": "Aircraft type classifications"
+    },
+    {
+      "info": {
+        "name": "Aviation tax information",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/taxes"
+      },
+      "docs": "Aviation tax information"
+    },
+    {
+      "info": {
+        "name": "City destination data",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/cities"
+      },
+      "docs": "City destination data"
+    },
+    {
+      "info": {
+        "name": "Country information",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/countries"
+      },
+      "docs": "Country information"
+    },
+    {
+      "info": {
+        "name": "Real-time flight schedule for current day",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/timetable"
+      },
+      "docs": "Real-time flight schedule for current day"
+    },
+    {
+      "info": {
+        "name": "Future flight schedule data",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://aviationstack.com/v1/flightsFuture"
+      },
+      "docs": "Future flight schedule data"
+    }
+  ],
+  "bundled": true
+}
