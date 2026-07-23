@@ -1,0 +1,38 @@
+openapi: 3.1.0
+info:
+  title: AviationStack Aircraft Types Taxes API
+  version: 1.0.0
+  description: Real-time and historical flight tracking, airline routes, airports, airlines, aircraft, taxes, cities, countries, and timetable data via REST endpoints.
+servers:
+- url: https://aviationstack.com/
+tags:
+- name: Taxes
+paths:
+  /v1/taxes:
+    get:
+      summary: Aviation tax information
+      responses:
+        '200':
+          description: Taxes collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Collection'
+      tags:
+      - Taxes
+components:
+  schemas:
+    Collection:
+      type: object
+      properties:
+        pagination:
+          type: object
+          additionalProperties: true
+        data:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+      additionalProperties: true
+x-generated-from: https://aviationstack.com/
+x-generated-by: claude-crawl-2026-05-08
