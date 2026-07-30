@@ -1,24 +1,138 @@
 aid: aviationstack
 url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/apis.yml
 apis:
-  - aid: aviationstack:aviationstack
-    name: Aviationstack
-    tags:
-      - Airlines
-      - Airports
-      - Aviation
-      - Flights
-      - Real-Time
-    humanURL: https://aviationstack.com/
-    properties:
-      - url: https://aviationstack.com/
-        type: Documentation
-      - url: openapi/aviationstack-openapi.yml
-        type: OpenAPI
-    description: >-
-      Aviationstack REST API provides real-time and historical flight status data, airline and airport information, and
-      global aviation intelligence through a simple JSON API.
-    baseURL: https://aviationstack.com/
+- aid: aviationstack:aviationstack-aircraft-types-api
+  name: Aviationstack Aircraft Types API
+  description: The Aircraft Types API from Aviationstack — 1 operation(s) for aircraft types.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - Aircraft Types
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-aircraft-types-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
+- aid: aviationstack:aviationstack-airlines-api
+  name: Aviationstack Airlines API
+  description: The Airlines API from Aviationstack — 1 operation(s) for airlines.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - Airlines
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-airlines-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
+- aid: aviationstack:aviationstack-airplanes-api
+  name: Aviationstack Airplanes API
+  description: The Airplanes API from Aviationstack — 1 operation(s) for airplanes.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - Airplanes
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-airplanes-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
+- aid: aviationstack:aviationstack-airports-api
+  name: Aviationstack Airports API
+  description: The Airports API from Aviationstack — 1 operation(s) for airports.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - Airports
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-airports-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
+- aid: aviationstack:aviationstack-cities-api
+  name: Aviationstack Cities API
+  description: The Cities API from Aviationstack — 1 operation(s) for cities.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - Cities
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-cities-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
+- aid: aviationstack:aviationstack-countries-api
+  name: Aviationstack Countries API
+  description: The Countries API from Aviationstack — 1 operation(s) for countries.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - Countries
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-countries-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
+- aid: aviationstack:aviationstack-flights-api
+  name: Aviationstack Flights API
+  description: The Flights API from Aviationstack — 1 operation(s) for flights.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - Flights
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-flights-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
+- aid: aviationstack:aviationstack-flightsfuture-api
+  name: Aviationstack FlightsFuture API
+  description: The FlightsFuture API from Aviationstack — 1 operation(s) for flightsfuture.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - FlightsFuture
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-flightsfuture-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
+- aid: aviationstack:aviationstack-routes-api
+  name: Aviationstack Routes API
+  description: The Routes API from Aviationstack — 1 operation(s) for routes.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - Routes
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-routes-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
+- aid: aviationstack:aviationstack-taxes-api
+  name: Aviationstack Taxes API
+  description: The Taxes API from Aviationstack — 1 operation(s) for taxes.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - Taxes
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-taxes-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
+- aid: aviationstack:aviationstack-timetable-api
+  name: Aviationstack Timetable API
+  description: The Timetable API from Aviationstack — 1 operation(s) for timetable.
+  humanURL: https://aviationstack.com/
+  baseURL: https://aviationstack.com/
+  tags:
+  - Timetable
+  properties:
+  - type: OpenAPI
+    url: openapi/aviationstack-timetable-api-openapi.yml
+  - type: Documentation
+    url: https://aviationstack.com/
 name: Aviationstack
 tags:
   - Airlines
@@ -27,7 +141,19 @@ tags:
   - Flights
   - Real-Time
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aviationstack.png
 access: 3rd-Party
 created: '2025-02-24'
 modified: '2026-05-19'
