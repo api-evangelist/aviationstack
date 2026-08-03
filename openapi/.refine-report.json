@@ -1,0 +1,34 @@
+{
+  "provider": "aviationstack",
+  "sources": [
+    "aviationstack-aircraft-types-api-openapi.yml",
+    "aviationstack-airlines-api-openapi.yml",
+    "aviationstack-airplanes-api-openapi.yml",
+    "aviationstack-airports-api-openapi.yml",
+    "aviationstack-cities-api-openapi.yml",
+    "aviationstack-countries-api-openapi.yml",
+    "aviationstack-flights-api-openapi.yml",
+    "aviationstack-flightsfuture-api-openapi.yml",
+    "aviationstack-routes-api-openapi.yml",
+    "aviationstack-taxes-api-openapi.yml",
+    "aviationstack-timetable-api-openapi.yml"
+  ],
+  "outputs": [
+    "aviationstack-aircraft-types-api-openapi.yml",
+    "aviationstack-airlines-api-openapi.yml",
+    "aviationstack-airplanes-api-openapi.yml",
+    "aviationstack-airports-api-openapi.yml",
+    "aviationstack-cities-api-openapi.yml",
+    "aviationstack-countries-api-openapi.yml",
+    "aviationstack-flights-api-openapi.yml",
+    "aviationstack-flightsfuture-api-openapi.yml",
+    "aviationstack-routes-api-openapi.yml",
+    "aviationstack-taxes-api-openapi.yml",
+    "aviationstack-timetable-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
