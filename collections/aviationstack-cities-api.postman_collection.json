@@ -1,0 +1,101 @@
+{
+  "item": [
+    {
+      "id": "bc252bbf-3fbf-43e8-b09a-6f04d5e1a59c",
+      "name": "Cities",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "6b627223-a5af-4786-98b5-23153f7f8938",
+          "name": "City destination data",
+          "request": {
+            "name": "City destination data",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "cities"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "b886a575-6d97-4de2-962d-44a2ae998f2f",
+              "name": "Cities collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "cities"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"pagination\": {\n    \"key_0\": \"string\"\n  },\n  \"data\": [\n    {\n      \"key_0\": 2210\n    },\n    {\n      \"key_0\": 3097,\n      \"key_1\": 1164.948054475804\n    }\n  ],\n  \"key_0\": true,\n  \"key_1\": false,\n  \"key_2\": 8865.855387505293\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://aviationstack.com/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "03004a15-245c-46f0-bf96-db49dbbccb70",
+    "name": "AviationStack Aircraft Types Cities API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Real-time and historical flight tracking, airline routes, airports, airlines, aircraft, taxes, cities, countries, and timetable data via REST endpoints.",
+      "type": "text/plain"
+    }
+  }
+}

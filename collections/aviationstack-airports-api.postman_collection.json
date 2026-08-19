@@ -1,0 +1,101 @@
+{
+  "item": [
+    {
+      "id": "34367374-f874-41a6-81b3-0cb2c880aa06",
+      "name": "Airports",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "920b0038-8f16-4d12-ac33-18bbbd4c8295",
+          "name": "Global airport information",
+          "request": {
+            "name": "Global airport information",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "airports"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "d1c3bf49-0a85-4167-ab63-a33cbaa7087d",
+              "name": "Airports collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "airports"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"pagination\": {\n    \"key_0\": 1830.6821744321521\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": true,\n      \"key_2\": true\n    }\n  ],\n  \"key_0\": true,\n  \"key_1\": true\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://aviationstack.com/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "2467c3ad-4a4e-4def-a299-d02266798981",
+    "name": "AviationStack Aircraft Types Airports API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Real-time and historical flight tracking, airline routes, airports, airlines, aircraft, taxes, cities, countries, and timetable data via REST endpoints.",
+      "type": "text/plain"
+    }
+  }
+}

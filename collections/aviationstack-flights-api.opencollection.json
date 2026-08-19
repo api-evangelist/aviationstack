@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "AviationStack Aircraft Types Flights API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Flights",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Real-time and historical flights",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://aviationstack.com/v1/flights"
+          },
+          "docs": "Real-time and historical flights"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "AviationStack Aircraft Types Airports API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Airports",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Global airport information",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://aviationstack.com/v1/airports"
+          },
+          "docs": "Global airport information"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

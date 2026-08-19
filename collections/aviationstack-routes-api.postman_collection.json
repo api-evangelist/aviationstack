@@ -1,0 +1,101 @@
+{
+  "item": [
+    {
+      "id": "942b0253-2ab0-46b0-a3b8-8b6fe5d02f96",
+      "name": "Routes",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "b9ce1cba-fe76-4b49-af9c-7309afaa9310",
+          "name": "Airline route data",
+          "request": {
+            "name": "Airline route data",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "routes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "34426beb-7327-4056-a48e-daeff880eca8",
+              "name": "Routes collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "routes"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"pagination\": {\n    \"key_0\": 9506.676994016318\n  },\n  \"data\": [\n    {\n      \"key_0\": false,\n      \"key_1\": true,\n      \"key_2\": true\n    },\n    {\n      \"key_0\": \"string\",\n      \"key_1\": false,\n      \"key_2\": 2024,\n      \"key_3\": 1823.8257928582914,\n      \"key_4\": \"string\"\n    }\n  ],\n  \"key_0\": \"string\",\n  \"key_1\": 7702\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://aviationstack.com/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "6b799389-fd6a-4e81-9782-2ef293575d92",
+    "name": "AviationStack Aircraft Types Routes API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Real-time and historical flight tracking, airline routes, airports, airlines, aircraft, taxes, cities, countries, and timetable data via REST endpoints.",
+      "type": "text/plain"
+    }
+  }
+}

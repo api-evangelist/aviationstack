@@ -1,0 +1,101 @@
+{
+  "item": [
+    {
+      "id": "8ecb8110-0750-4e4c-881a-b168f885253b",
+      "name": "Taxes",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "4f06816f-d32a-413e-9855-64fa9da9681f",
+          "name": "Aviation tax information",
+          "request": {
+            "name": "Aviation tax information",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "taxes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "a3270584-0e2b-4380-bf9c-e796b3b0bd94",
+              "name": "Taxes collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "taxes"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"pagination\": {\n    \"key_0\": 9403,\n    \"key_1\": \"string\",\n    \"key_2\": 8191.591587905353,\n    \"key_3\": 4137\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": 7321\n    }\n  ],\n  \"key_0\": 2331,\n  \"key_1\": \"string\"\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://aviationstack.com/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "e3a15113-9464-4632-8ee0-b3a9324677b3",
+    "name": "AviationStack Aircraft Types Taxes API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Real-time and historical flight tracking, airline routes, airports, airlines, aircraft, taxes, cities, countries, and timetable data via REST endpoints.",
+      "type": "text/plain"
+    }
+  }
+}

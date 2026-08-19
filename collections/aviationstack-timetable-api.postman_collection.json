@@ -1,0 +1,101 @@
+{
+  "item": [
+    {
+      "id": "2f7a0b01-d000-4585-b6b6-76b0102f637a",
+      "name": "Timetable",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "0290621e-48ce-49a3-a254-9a3a029c972c",
+          "name": "Real-time flight schedule for current day",
+          "request": {
+            "name": "Real-time flight schedule for current day",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "timetable"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "978f23ac-801b-4d86-b1b7-5053686801c0",
+              "name": "Timetable collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "timetable"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"pagination\": {\n    \"key_0\": 1454.8361260419972\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\"\n    },\n    {\n      \"key_0\": 4453.32590043569\n    }\n  ],\n  \"key_0\": 4417\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://aviationstack.com/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "a022a437-9c8d-48da-826b-945b62befc57",
+    "name": "AviationStack Aircraft Types Timetable API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Real-time and historical flight tracking, airline routes, airports, airlines, aircraft, taxes, cities, countries, and timetable data via REST endpoints.",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "AviationStack Aircraft Types Countries API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Countries",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Country information",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://aviationstack.com/v1/countries"
+          },
+          "docs": "Country information"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

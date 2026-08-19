@@ -1,0 +1,101 @@
+{
+  "item": [
+    {
+      "id": "d30f6a2a-e29c-413f-9bb2-8a9b0c5a791b",
+      "name": "Countries",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "29954fd8-ce78-4717-9dd4-a6bb059f9f63",
+          "name": "Country information",
+          "request": {
+            "name": "Country information",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "countries"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "1f852420-ce6c-48db-a329-60102df33b9f",
+              "name": "Countries collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "countries"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"pagination\": {\n    \"key_0\": \"string\",\n    \"key_1\": false\n  },\n  \"data\": [\n    {\n      \"key_0\": \"string\",\n      \"key_1\": 580,\n      \"key_2\": 6614.449964450017\n    },\n    {\n      \"key_0\": 636,\n      \"key_1\": 2762.77896994347\n    }\n  ]\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://aviationstack.com/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "15803773-5c3e-448d-bb76-ed1e7583410e",
+    "name": "AviationStack Aircraft Types Countries API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Real-time and historical flight tracking, airline routes, airports, airlines, aircraft, taxes, cities, countries, and timetable data via REST endpoints.",
+      "type": "text/plain"
+    }
+  }
+}

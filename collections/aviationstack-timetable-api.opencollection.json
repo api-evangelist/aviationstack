@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "AviationStack Aircraft Types Timetable API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Timetable",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Real-time flight schedule for current day",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://aviationstack.com/v1/timetable"
+          },
+          "docs": "Real-time flight schedule for current day"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,101 @@
+{
+  "item": [
+    {
+      "id": "2648f04b-0dd7-4e67-b104-b529b3e8769a",
+      "name": "Airplanes",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "4e6d239b-badb-4e7f-84fd-a5a796035735",
+          "name": "Aircraft information",
+          "request": {
+            "name": "Aircraft information",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "airplanes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "35d02315-0660-40e5-9b89-5d4af1eeb447",
+              "name": "Airplanes collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "airplanes"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"pagination\": {\n    \"key_0\": 8907.02472007701,\n    \"key_1\": \"string\"\n  },\n  \"data\": [\n    {\n      \"key_0\": 8444.60749010388,\n      \"key_1\": 9383,\n      \"key_2\": 5840.293061410108\n    },\n    {\n      \"key_0\": true,\n      \"key_1\": \"string\"\n    }\n  ],\n  \"key_0\": 3565.421291832942,\n  \"key_1\": 3234\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://aviationstack.com/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "2e5a3f71-3b2b-4d96-8927-a57327b4e977",
+    "name": "AviationStack Aircraft Types Airplanes API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Real-time and historical flight tracking, airline routes, airports, airlines, aircraft, taxes, cities, countries, and timetable data via REST endpoints.",
+      "type": "text/plain"
+    }
+  }
+}

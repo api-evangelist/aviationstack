@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "AviationStack Aircraft Types FlightsFuture API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "FlightsFuture",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Future flight schedule data",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://aviationstack.com/v1/flightsFuture"
+          },
+          "docs": "Future flight schedule data"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
