@@ -115,6 +115,8 @@ apis:
   humanURL: https://aviationstack.com/
   baseURL: https://aviationstack.com/
   tags:
+  - Tax
+  tags_raw:
   - Taxes
   properties:
   - type: OpenAPI
