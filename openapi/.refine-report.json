@@ -1,17 +1,7 @@
 {
   "provider": "aviationstack",
   "sources": [
-    "aviationstack-aircraft-types-api-openapi.yml",
-    "aviationstack-airlines-api-openapi.yml",
-    "aviationstack-airplanes-api-openapi.yml",
-    "aviationstack-airports-api-openapi.yml",
-    "aviationstack-cities-api-openapi.yml",
-    "aviationstack-countries-api-openapi.yml",
-    "aviationstack-flights-api-openapi.yml",
-    "aviationstack-flightsfuture-api-openapi.yml",
-    "aviationstack-routes-api-openapi.yml",
-    "aviationstack-taxes-api-openapi.yml",
-    "aviationstack-timetable-api-openapi.yml"
+    "_ae-authored/aviationstack-openapi.yml"
   ],
   "outputs": [
     "aviationstack-aircraft-types-api-openapi.yml",
@@ -29,6 +19,44 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "aviationstack-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "aviationstack-openapi.yml: tagged paths GET /v1/flights -> Flights",
+    "aviationstack-openapi.yml: tagged paths GET /v1/routes -> Routes",
+    "aviationstack-openapi.yml: tagged paths GET /v1/airports -> Airports",
+    "aviationstack-openapi.yml: tagged paths GET /v1/airlines -> Airlines",
+    "aviationstack-openapi.yml: tagged paths GET /v1/airplanes -> Airplanes",
+    "aviationstack-openapi.yml: tagged paths GET /v1/aircraft_types -> Aircraft Types",
+    "aviationstack-openapi.yml: tagged paths GET /v1/taxes -> Taxes",
+    "aviationstack-openapi.yml: tagged paths GET /v1/cities -> Cities",
+    "aviationstack-openapi.yml: tagged paths GET /v1/countries -> Countries",
+    "aviationstack-openapi.yml: tagged paths GET /v1/timetable -> Timetable",
+    "aviationstack-openapi.yml: tagged paths GET /v1/flightsFuture -> FlightsFuture",
+    "aviationstack-openapi.yml: declared missing tag: Aircraft Types",
+    "aviationstack-openapi.yml: declared missing tag: Airlines",
+    "aviationstack-openapi.yml: declared missing tag: Airplanes",
+    "aviationstack-openapi.yml: declared missing tag: Airports",
+    "aviationstack-openapi.yml: declared missing tag: Cities",
+    "aviationstack-openapi.yml: declared missing tag: Countries",
+    "aviationstack-openapi.yml: declared missing tag: Flights",
+    "aviationstack-openapi.yml: declared missing tag: FlightsFuture",
+    "aviationstack-openapi.yml: declared missing tag: Routes",
+    "aviationstack-openapi.yml: declared missing tag: Taxes",
+    "aviationstack-openapi.yml: declared missing tag: Timetable",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "aviationstack-aircraft-types-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "aviationstack-airlines-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "aviationstack-airplanes-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "aviationstack-airports-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "aviationstack-cities-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "aviationstack-countries-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "aviationstack-flights-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "aviationstack-flightsfuture-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "aviationstack-routes-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "aviationstack-taxes-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "aviationstack-timetable-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
