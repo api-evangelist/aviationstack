@@ -5,7 +5,6 @@ apis:
   name: Aviationstack Aircraft Types API
   description: The Aircraft Types API from Aviationstack — 1 operation(s) for aircraft types.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - Aircraft Types
   properties:
@@ -17,7 +16,6 @@ apis:
   name: Aviationstack Airlines API
   description: The Airlines API from Aviationstack — 1 operation(s) for airlines.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - Airlines
   properties:
@@ -29,7 +27,6 @@ apis:
   name: Aviationstack Airplanes API
   description: The Airplanes API from Aviationstack — 1 operation(s) for airplanes.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - Airplanes
   properties:
@@ -41,7 +38,6 @@ apis:
   name: Aviationstack Airports API
   description: The Airports API from Aviationstack — 1 operation(s) for airports.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - Airports
   properties:
@@ -53,7 +49,6 @@ apis:
   name: Aviationstack Cities API
   description: The Cities API from Aviationstack — 1 operation(s) for cities.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - Cities
   properties:
@@ -65,7 +60,6 @@ apis:
   name: Aviationstack Countries API
   description: The Countries API from Aviationstack — 1 operation(s) for countries.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - Countries
   properties:
@@ -77,7 +71,6 @@ apis:
   name: Aviationstack Flights API
   description: The Flights API from Aviationstack — 1 operation(s) for flights.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - Flights
   properties:
@@ -89,7 +82,6 @@ apis:
   name: Aviationstack FlightsFuture API
   description: The FlightsFuture API from Aviationstack — 1 operation(s) for flightsfuture.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - FlightsFuture
   properties:
@@ -101,7 +93,6 @@ apis:
   name: Aviationstack Routes API
   description: The Routes API from Aviationstack — 1 operation(s) for routes.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - Routes
   properties:
@@ -113,7 +104,6 @@ apis:
   name: Aviationstack Taxes API
   description: The Taxes API from Aviationstack — 1 operation(s) for taxes.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - Tax
   tags_raw:
@@ -127,7 +117,6 @@ apis:
   name: Aviationstack Timetable API
   description: The Timetable API from Aviationstack — 1 operation(s) for timetable.
   humanURL: https://aviationstack.com/
-  baseURL: https://aviationstack.com/
   tags:
   - Timetable
   properties:
