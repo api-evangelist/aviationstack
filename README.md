@@ -1,4 +1,4 @@
-# Aviationstack (aviationstack)
+# Aviationstack
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,59 +66,133 @@
 
 Aviationstack is a comprehensive aviation data platform that provides real-time, accurate, and reliable information about flights, airlines, airports, and aircraft. This powerful tool offers a wide range of data including flight schedules, arrival and departure times, route information, aircraft details, and more.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/apis.yml)
+**Areas:** Airlines · Airports · Aviation · Flights · Real-Time
 
-## Scope
+## Aviationstack on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Aviationstack is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aviationstack/](https://apis.io/providers/aviationstack/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (11)
 
-- Airlines
-- Airports
-- Aviation
-- Flights
-- Real-Time
+- [Aviationstack Aircraft Types API](https://apis.io/apis/aviationstack/aviationstack-aircraft-types-api/) — The Aircraft Types API from Aviationstack — 1 operation(s) for aircraft types.
+- [Aviationstack Airlines API](https://apis.io/apis/aviationstack/aviationstack-airlines-api/) — The Airlines API from Aviationstack — 1 operation(s) for airlines.
+- [Aviationstack Airplanes API](https://apis.io/apis/aviationstack/aviationstack-airplanes-api/) — The Airplanes API from Aviationstack — 1 operation(s) for airplanes.
+- [Aviationstack Airports API](https://apis.io/apis/aviationstack/aviationstack-airports-api/) — The Airports API from Aviationstack — 1 operation(s) for airports.
+- [Aviationstack Cities API](https://apis.io/apis/aviationstack/aviationstack-cities-api/) — The Cities API from Aviationstack — 1 operation(s) for cities.
+- [Aviationstack Countries API](https://apis.io/apis/aviationstack/aviationstack-countries-api/) — The Countries API from Aviationstack — 1 operation(s) for countries.
+- [Aviationstack Flights API](https://apis.io/apis/aviationstack/aviationstack-flights-api/) — The Flights API from Aviationstack — 1 operation(s) for flights.
+- [Aviationstack FlightsFuture API](https://apis.io/apis/aviationstack/aviationstack-flightsfuture-api/) — The FlightsFuture API from Aviationstack — 1 operation(s) for flightsfuture.
+- [Aviationstack Routes API](https://apis.io/apis/aviationstack/aviationstack-routes-api/) — The Routes API from Aviationstack — 1 operation(s) for routes.
+- [Aviationstack Taxes API](https://apis.io/apis/aviationstack/aviationstack-taxes-api/) — The Taxes API from Aviationstack — 1 operation(s) for taxes.
+- [Aviationstack Timetable API](https://apis.io/apis/aviationstack/aviationstack-timetable-api/) — The Timetable API from Aviationstack — 1 operation(s) for timetable.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-02-24
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### Aviationstack
+Which operations an agent can call, which act, and which need a human in the loop.
 
-Aviationstack REST API provides real-time and historical flight status data, airline and airport information, and global aviation intelligence through a simple JSON API.
+- [Aviationstack Agentic Access](https://apis.io/agentic-access/aviationstack/aviationstack-agentic-access/)
 
-- **Human URL:** [https://aviationstack.com/](https://aviationstack.com/)
-- **Base URL:** `https://aviationstack.com/`
+#### Collections (12)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- Airlines
-- Airports
-- Aviation
-- Flights
-- Real-Time
+- [AviationStack API](https://apis.io/collections/aviationstack/open-aviationstack/)
+- [AviationStack Aircraft Types API](https://apis.io/collections/aviationstack/open-aviationstack-aircraft-types-api/)
+- [AviationStack Aircraft Types Airlines API](https://apis.io/collections/aviationstack/open-aviationstack-airlines-api/)
+- [AviationStack Aircraft Types Airplanes API](https://apis.io/collections/aviationstack/open-aviationstack-airplanes-api/)
+- [AviationStack Aircraft Types Airports API](https://apis.io/collections/aviationstack/open-aviationstack-airports-api/)
+- [AviationStack Aircraft Types Cities API](https://apis.io/collections/aviationstack/open-aviationstack-cities-api/)
+- [AviationStack Aircraft Types Countries API](https://apis.io/collections/aviationstack/open-aviationstack-countries-api/)
+- [AviationStack Aircraft Types Flights API](https://apis.io/collections/aviationstack/open-aviationstack-flights-api/)
+- [AviationStack Aircraft Types FlightsFuture API](https://apis.io/collections/aviationstack/open-aviationstack-flightsfuture-api/)
+- [AviationStack Aircraft Types Routes API](https://apis.io/collections/aviationstack/open-aviationstack-routes-api/)
+- [AviationStack Aircraft Types Taxes API](https://apis.io/collections/aviationstack/open-aviationstack-taxes-api/)
+- [AviationStack Aircraft Types Timetable API](https://apis.io/collections/aviationstack/open-aviationstack-timetable-api/)
 
-#### Properties
+#### Security (1)
 
-- [Documentation](https://aviationstack.com/)
-- [OpenAPI](openapi/aviationstack-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/aviationstack.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/aviationstack.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Aviationstack Domain Security](https://apis.io/security/aviationstack/aviationstack-domain-security/)
 
-- [Portal](https://aviationstack.com/documentation)
-- [GitHub Organization](https://github.com/apilayer)
-- [LinkedIn](https://www.linkedin.com/company/aviationstack/)
-- [Integrations](https://aviationstack.com/integrations)
+#### Plans and pricing (1)
 
-## Maintainers
+Published plans, tiers and prices.
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+- [Aviationstack Plans Pricing](https://apis.io/plans/aviationstack/aviationstack-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aviationstack Rate Limits](https://apis.io/rate-limits/aviationstack/aviationstack-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Aviationstack Finops](https://apis.io/finops/aviationstack/aviationstack-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.aviationstack.com/)
+- [GitHub](https://github.com/apilayer)
+
+## API Evangelist rating
+
+**Kin Score 21.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 38.6 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 7.9 |
+
+**Agent readiness 17.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aviationstack/](https://apis.io/providers/aviationstack/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aviationstack: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aviationstack/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
